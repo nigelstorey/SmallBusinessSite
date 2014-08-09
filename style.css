@@ -1,0 +1,69 @@
+
+a {
+    blacolor: #333333;
+    font-family: Century Gothic, sans-serif;
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    text-decoration:underline;
+    color:black;
+}
+
+nav {
+
+  display:inline-block;
+  clear:both;
+  float:right;
+  margin:25px;
+  word-spacing: 1em;
+}
+
+.middle{
+
+    padding: 20px;
+    overflow: hidden;
+}
+
+.middle p, .middle h1 {
+    float: left;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.bottom{
+ width:1000px;
+
+margin-left: auto;
+margin-right:auto;
+text-align: center;
+
+}
+
+.bottomleft{
+float:left;
+width:200px;
+}
+
+.bottommiddleleft{
+  float:left;
+width:300px;
+}
+
+.bottommiddleright{
+  float:left;
+width:300px;
+}
+
+.bottomright{
+  float:right;
+width:200px;
+}
