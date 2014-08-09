@@ -20,13 +20,19 @@ nav {
 }
 
 .middle{
-
+float: left;
     padding: 20px;
     overflow: hidden;
 }
 
 .middle p, .middle h1 {
-    float: left;
+   
+}
+
+.middleright {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
 }
 
 
